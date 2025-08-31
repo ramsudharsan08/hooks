@@ -1,4 +1,3 @@
-import { useContext } from "react"
 import { useTheme, useThemeUpdate } from './ThemeProvider'
 
 export default function ChildComponent() {
