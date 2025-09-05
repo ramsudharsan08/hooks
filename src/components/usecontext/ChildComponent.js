@@ -1,8 +1,7 @@
-import { useTheme, useThemeUpdate } from './ThemeProvider'
+import { useTheme } from './ThemeProvider'
 
 export default function ChildComponent() {
-    const darkTheme = useTheme()
-    const toggleTheme = useThemeUpdate()
+    const {darkTheme, toggleTheme} = useTheme()
     const themeStyle = {
         backgroundColor: darkTheme ? '#000' : '#fff',
         color: darkTheme ? '#fff' : '#000',

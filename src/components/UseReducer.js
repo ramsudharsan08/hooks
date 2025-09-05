@@ -1,3 +1,5 @@
+// manage complex state logic in a predictable and structured way.
+// It’s an alternative to useState
 import{ useReducer } from "react";
 
 const initialState = {
